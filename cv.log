@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.21)  28 APR 2018 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.21)  28 APR 2018 23:11
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -316,23 +316,23 @@ les
  (cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 (D:\Pro\latex\tex\latex\ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \microtypecontext on input line 72.
+LaTeX Info: Redefining \microtypecontext on input line 70.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -436,7 +436,7 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 80.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 77.
 (D:\Pro\latex\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -445,7 +445,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 81.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 78.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -453,20 +453,20 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 86.
+ne 84.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 (D:\Pro\latex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (D:\Pro\latex\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (D:\Pro\latex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -485,7 +485,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 95.
+ne 94.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -493,7 +493,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 109.
+ne 111.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -501,15 +501,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 118.
-
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 126.
+ne 122.
 
 [1
 
@@ -520,66 +512,67 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 140.
+ne 130.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 138.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
 
 (D:\Pro\latex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
- [2]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
+
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 157.
+ne 161.
 
-(D:\Pro\latex\tex\latex\ucs\uni-32.def
+[2] (D:\Pro\latex\tex\latex\ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (17.34901pt too wide) in paragraph at lines 169--173
+Overfull \hbox (17.34901pt too wide) in paragraph at lines 173--177
 \OT1/cmr/m/n/10.95 (-20) Grav-i-ta-tional Fields" at Theoretisch-Physikalisches
  In-sti-tut Astronomisch-Physikalische-
  []
 
-(cv.bbl
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 1.
+ne 183.
 
-[3]
-Underfull \hbox (badness 2941) in paragraph at lines 41--45
-[]\OT1/cmr/m/n/10.95 (+20) Samoilenka, A. Mul-ti-soli-ton so-lu-tions of mod-el
-s of the skyrme fam-ily /
- []
-
-) [4] (cv.aux) ) 
+[3] (cv.aux) ) 
 Here is how much of TeX's memory you used:
- 8177 strings out of 493333
- 127947 string characters out of 3145682
- 346620 words of memory out of 10000000
- 11505 multiletter control sequences out of 15000+200000
- 19044 words of font info for 77 fonts, out of 3000000 for 9000
+ 8158 strings out of 493333
+ 127746 string characters out of 3145682
+ 346600 words of memory out of 10000000
+ 11493 multiletter control sequences out of 15000+200000
+ 18942 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,5n,51p,8815b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Pro/latex/fonts/enc/dvips/base/8r.enc}<D:/Pro/latex/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Pro/latex/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro/latex/fonts/type1/public/amsf
-onts/cm/cmti10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/
-Pro/latex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Pro/latex/fonts/type1/urw/hel
-vetic/uhvro8a.pfb>
-Output written on cv.pdf (4 pages, 116713 bytes).
+ 48i,6n,51p,8815b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Pro/latex/fonts/enc/dvips/base/8r.enc}<D:/Pro/latex/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Pro/latex/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro/latex/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/Pr
+o/latex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Pro/latex/fonts/type1/urw/helve
+tic/uhvro8a.pfb>
+Output written on cv.pdf (3 pages, 111284 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  15361 words of extra memory for PDF output out of 17280 (max. 10000000)
 
