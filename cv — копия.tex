@@ -1,0 +1,197 @@
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{Black}{%
+			\parbox{6em}{%
+			\hfill\color{White}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1} \hfill      % Jobname
+		\colorbox{Black}{\color{White}#2} \par  % Duration
+		\noindent \textit{#3} \par              % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{Albert Samoilenka}
+\MySlogan{Curriculum Vitae}
+
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Personal details}{}
+
+\PersonalEntry{Birth}{15.11.1994, Minsk, Belarus}
+\PersonalEntry{Nationality}{Belarus}
+\PersonalEntry{Address}{lane Dubravinski 5-18, Minks, Belarus, 220089}
+\PersonalEntry{Mail}{\url{samoilenkoalbert@gmail.com}}
+\PersonalEntry{Phone}{+375298769072}
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+\EducationEntry{Gymnasium 12}{2001-2010}{Minsk, Belarus}
+\sepspace
+\EducationEntry{Gymnasium 29}{2010-2012}{Minsk, Belarus}
+\sepspace
+\EducationEntry{Junior Undergraduate, BSU, The Faculty of Physics}{2012-2014}{Minsk, Belarus}
+\sepspace
+\EducationEntry{Undergraduate, BSU, The Faculty of Physics }{2014-2017}{Minsk, Belarus}{Graduated with summa cum laude}
+\sepspace
+\EducationEntry{Master student, BSU, The Faculty of Physics}{2017-present}{Minsk, Belarus}
+
+
+%\EducationEntry{BSU, The Faculty of Physics, Department of Theoretical Physics and Astrophysics}{2012-present}{Minsk, Belarus}
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Work experience}{}
+
+\EducationEntry{Part time school physics teacher}{2012-2013}{Gymnasium 29, Minsk, Belarus}{Pupils preparation for International Physics Olympiad (Optional course)}
+
+\EducationEntry{Part time physics teacher}{Summer 2013}{NCC "Zubrenok", Belarus}{Pupils preparation for Physics Olympiad}
+
+\EducationEntry{One of the organizers of "SciFun" club at BSU}{2016-present}{Belarusian State University}{Hobby}
+
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Skills}{}
+\SkillsEntry{Languages}{Russian (native)}
+\SkillsEntry{}{Belarusian (native)}
+\SkillsEntry{}{English (fluent)}
+
+\SkillsEntry{Software}{C++, C\#, Unity3D, Delphi, Wolfram Mathematica, \LaTeX, Mayavi}
+\SkillsEntry{Systems}{LINUX, MS Windows, macOS, Android}
+
+\NewPart{Research summary}{}
+Main research area of my studies is related with Mathematical Physics, Numerical Methods in Field Theory, Topological Solitons and their applications in condensed matter physics and High energy physics. I have studied numerically and analytical various problems of Nonlinear Physics. 
+
+Namely, during my research I considered topological solitons in different models. I carried out work on Gauged multisoliton baby Skyrme model with and without Chern-Simons term. Results of this study were published in [1,2]. I considered Hopfions in the 3-dimensional Faddeev-Skyrme model with symmetry breaking potential [3]. Recently, I have found gauged isolated Merons with finite energy in Gauged baby Skyrme model [5]. Soon will be finished work on numerical study of gauged Hopfions in full 3d Faddeev-Skyrme model. Further, currently I continue investigation of domain walls on cylinder with non trivial vacuum configuration and existence of the bound for Hopfions in frustrated magnets. The above mentioned works were carried out under supervision of Prof. Dr. Jakov Shnir.
+
+In order to solve these problems, I have developed numerical minimization algorithm, which works for 2 or 3 dimensional models and even for non-positively defined energy functional. It was based on the simulated annealing algorithm and realized on C++.
+
+
+\NewPart{Awards}{}
+\begin{itemize}
+\item First Prize of Special Funds of the President of the Republic of Belarus for XIX Republic Young Physicists' Tournament, 2011
+\item Second Prize of Special Funds of the President of the Republic of Belarus for XX Republic Young Physicists' Tournament, 2012
+\item Gold medal on Belarusian Physics Olympiad, Belarus, 2012
+\item \textbf{Gold medal on 43rd International Physics Olympiad (IPhO), Estonia 2012}
+\item First Prize of Special Funds of the President of the Republic of Belarus for 43rd IPhO with Delivery of the Breastplate of the Laureate
+\item \textbf{Enlisted in the fund of talented youth of Republic of Belarus, 2012}
+\item \textbf{Silver medal on 2nd World Physics Olympiad (WoPhO), Indonesia 2012}
+\item Gold medal on Xth International Engineering Mechanics Contest, Belarus, 2014
+\item Prize of Special Funds of the President of the Republic of Belarus for Xth International Engineering Mechanics Contest, 2014
+\item Silver medal on XIth International Engineering Mechanics Contest, Belarus 2015
+\item \textbf{2nd place on JINR Youth Prize Competition of The XX International Scientific Conference of Young Scientists and Specialists, Dubna 2016}
+\item 1st place in 3 Minute Thesis competition, Belarus-Ivanovo-Karaganda 2017
+\item 1st category on the Republican competition of scientific works of students, Minsk, Belarus, 2017.
+\end{itemize}
+%\SkillsEntry{2012}{gold medal on 43rd International Physics Olympiad, Estonia}
+%\SkillsEntry{2012}{silver medal on 2nd World Physics Olympiad, Indonesia}
+%\SkillsEntry{2014}{gold medal on Xth International Engineering Mechanics Contest, Belarus}
+%\SkillsEntry{2015}{silver medal on XIth International Engineering Mechanics Contest, Belarus}
+%\SkillsEntry{2016}{2nd place on JINR Youth Prize Competition of The XX International Scientific Conference of Young Scientists and Specialists, Dubna}
+
+
+\NewPart{Attended conferences, schools and practices}
+\begin{itemize}
+	\item I participated in international physics Olympiads, namely: 43 IPhO, Estonia 2012 and 2 WoPhO, Indonesia 2012.
+    \item Student Practice in JINR Fields of Research (3rd stage) Dubna, Russia, September 7 - 25, 2015
+    \item Visit to Department of Physics at the School of Mathematics and Natural Sciences of the University of Oldenburg within the Ostpartnerschafts-Programme, 30. November - 7. December, 2016.
+    \item Report on the XX International Scientific Conference of Young Scientists and Specialists, Dubna, 14-18 March, 2016
+    \item The Helmholtz International School "Cosmology, Strings, New Physics" organized by the Bogoliubov Laboratory of Theoretical Physics, JINR, in the framework of the program DIAS-TH, Dubna, Russia, 28 August- 10 September, 2016
+    \item 50-th Annual Winter School St.Petersburg Nuclear Physics Institute NRC KI 29 February – 5 March, 2016
+    \item Poster on XXIV International Seminar Nonlinear Phenomena in Complex Systems, Joint Institute for Power and Nuclear Research - Sosny of the National Academy of Sciences of Belarus, Minsk, Belarus, May 16-19, 2017
+    \item Report on SIG VI - Topological Solitons: from kinks to Skyrmions, the Institute of Physics, Jagiellonian University, Krakow, Poland, 19-22 June 2017
+    \item Poster on V International School - Symmetry in Integrable systems and Nuclear Physics (SISNP-V), Yerevan State University, Tsakhkadzor, Armenia, July 16 - 22, 2017
+    \item MITP Summer School 2017 - Joint Challenges for Cosmology and Colliders, The Mainz Institute for Theoretical Physics, Mainz, Germany, 6-25 August 2017
+    \item Graduate program of the Research Training
+    Group (RTG) 1523 "Quantum- and Gravitational Fields" at
+    Theoretisch-Physikalisches Institut Astronomisch-Physikalische-Fakultat
+    Friedrich-Schiller-Universitat Jena, Germany, January 10 - March 7, 2018.
+\end{itemize}
+
+
+%\bibliography{data=bibcv,style=gost7103u-m_non-bold}   \cite{Samoilenka:2015bsf,Samoilenka:2017}
+%%% References
+%%% ------------------------------------------------------------
+\NewPart{Publications}{}
+\begin{itemize}
+\item[1] A.~Samoilenka and Ya.~Shnir,``Gauged multisoliton baby Skyrme model'', Phys.\ Rev.\ D 93 (2016)  065018, arXiv:1512.06280
+\item[2] A.~Samoilenka and Ya.~Shnir,``Gauged baby Skyrme model with a Chern-Simons term'', Phys. Rev. D 95, 045002 (2017), arXiv:1610.01300
+\item[3] Samoilenka, A., and Ya Shnir. "Fractional Hopfions in the Faddeev-Skyrme model with a symmetry breaking potential." Journal of High Energy Physics 2017.9 (2017): 29. doi: 10.1007/JHEP09(2017)029, arXiv:1707.06608
+\item[4] A. Samoilenka, "Multisoliton solutions of models of the Skyrme family", Conference materials, Collection of works of the 74th scientific conference of students and post-graduate students of the BSU, Minsk, 2017
+\item[5] A. Samoilenka, Ya. Shnir "Gauged Merons", to appear in Phys.\ Rev.\ D 97 (2018), arXiv:1712.00161 
+
+%\item[1] 1.	Samoilenka, A. V. Gauged multisoliton baby Skyrme model / A. V. Samoilenka, Ya. M. Shnir // Physical Review D. – 2016. – Vol. 93. – P. 065018 (9 pages).
+%\item[2] 2.	Samoilenka, A. V. Gauged baby Skyrme model with a Chern-Simons term / A. V. Samoilenka, Ya. M. Shnir // Physical Review D. – 2017. – Vol. 95. – P. 045002 (14 pages).
+%\item[3] 3.	Samoilenka, A. V. Fractional Hopfions in the Faddeev-Skyrme model with a symmetry breaking potential / A. V. Samoilenka, Ya. M. Shnir // Journal of High Energy Physics. – 2017. – Vol. 9. – P. 1007 (29 pages).
+%\item[4] Samoilenka, A. V. Multisoliton solutions of models of the Skyrme family / A. V. Samoilenka // Conference materials, Collection of works of the 74th scientific conference of students and post-graduate students of the BSU, Minsk, 15-24 may 2017 / Minsk : BSU, 2017, P. 5–8. – to be published.
+\end{itemize}
+
+\end{document}
