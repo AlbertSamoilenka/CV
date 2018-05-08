@@ -1,5 +1,4 @@
 \documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
-%\documentclass[paper=a4,fontsize=11pt]{article} 
 							
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
@@ -70,48 +69,29 @@
 
 
 \begin{document}
-
-% you can upload a photo and include it here...
-%\begin{wrapfigure}{l}{0.5\textwidth}
-%	\vspace*{-2em}
-%		\includegraphics[width=0.15\textwidth]{photo}
-%\end{wrapfigure}
-
 \MyName{Albert Samoilenka}
 \MySlogan{Curriculum Vitae}
 
 \sepspace
 
-
 \NewPart{Personal details}{}
-
 \PersonalEntry{Birth}{15.11.1994, Minsk, Belarus}
 \PersonalEntry{Nationality}{Belarus}
 \PersonalEntry{Address}{lane Dubravinski 5-18, Minks, Belarus, 220089}
 \PersonalEntry{Mail}{\url{samoilenkoalbert@gmail.com}}
 \PersonalEntry{Phone}{+375298769072}
 
-
 \NewPart{Education}{}
-
 \EducationEntry{Gymnasium 12}{2001-2010}{Minsk, Belarus}
 \sepspace
 \EducationEntry{Gymnasium 29}{2010-2012}{Minsk, Belarus}
 \sepspace
-%\EducationEntry{Junior Undergraduate, BSU, The Faculty of Physics}{2012-2014}{Minsk, Belarus}
-%\sepspace
-%\EducationEntry{Undergraduate, BSU, The Faculty of Physics }{2014-2017}{Minsk, Belarus}{Graduated with summa cum laude}
-%\sepspace
-%\EducationEntry{Master student, BSU, The Faculty of Physics}{2017-present}{Minsk, Belarus}
 \EducationEntry{Belarusian State University, The Faculty of Physics}{2012-2017}{Minsk, Belarus, Graduated with summa cum laude}{5-year "Physicist" diploma (equivalent to Master degree)}
 
 
 \NewPart{Work experience}{}
-
 \EducationEntry{Part time school physics teacher}{2012-2013}{Gymnasium 29, Minsk, Belarus}{Pupils preparation for International Physics Olympiad (Optional course)}
-
 \EducationEntry{Part time physics teacher}{Summer 2013}{NCC "Zubrenok", Belarus}{Pupils preparation for Physics Olympiad}
-
 \EducationEntry{One of the organizers of "SciFun" club at BSU}{2016-present}{Belarusian State University}{Hobby}
 
 
@@ -119,7 +99,6 @@
 \SkillsEntry{Languages}{Russian (native)}
 \SkillsEntry{}{Belarusian (native)}
 \SkillsEntry{}{English (fluent)}
-
 \SkillsEntry{Software}{C++, C\#, JavaScript, Unity3D, Delphi, Mathematica, \LaTeX,}
 \SkillsEntry{}{FreeFem, Mayavi}
 \SkillsEntry{Systems}{LINUX, MS Windows, macOS, Android}
@@ -130,13 +109,6 @@ Main research area of my studies is related with Mathematical Physics, Numerical
 In 2015-2017 I studied gauged planar Skyrmions with and without Chern-Simons term (results were published in two papers in PRD \cite{GaugedBaby,GaugedBabyCS}), we showed that coupling to the magnetic field strongly affects the pattern of interaction between the constituents. Next, we constructed fractional Hopfions in Faddeev-Skyrme model and introduced new position curve for them (published in JHEP \cite{FractionalHopf}, conference proceedings \cite{SkyrmeFamily}). Recently, we have found new class of regular soliton solutions of the gauged planar Skyrme model with fractional topological charges and finite energy -- gauged merons, we also found a new relation between the quantization of the magnetic flux of the solitons and the Poincare index of gauged components of the scalar field (published in PRD \cite{GaugedMerons}). Now we are finishing another work on Hopfions in gauged Faddeev-Skyrme model, where we have implement ideas from \cite{GaugedMerons} to show that magnetic flux on zeros of gauged components of the scalar field becomes quantized. Another direction of my work is related with study of the gauged domain walls on a cylinder and construction of the bound for Hopfions in frustrated magnets. The above mentioned works were carried out under supervision of Prof. Dr. Jakov Shnir.
 
 I want to highlight that apart from analytical studies, which were closely connected to the topology, all above mentioned works I studied numerically. Simulated annealing algorithm served as a basis for my algorithm of numerical minimization of the energy functional, which I wrote on C++. When considering different models I adapted my algorithm accordingly, so that now it can successfully find solutions in 1, 2 or 3 dimensional models with more than $200^3$ grid points and 5 fields in the last case. Also I modified it so that it's possible to find saddle points for non-positively defined functionals. It was successfully used for 2-d baby Skyrmions, Hopfins and 3-d Skyrmions.
-
-
-
-%Namely, during my research I considered topological solitons in different models. I carried out work on Gauged multisoliton baby Skyrme model with and without Chern-Simons term. Results of this study were published in [1,2]. I considered Hopfions in the 3-dimensional Faddeev-Skyrme model with symmetry breaking potential [3]. Recently, I have found gauged isolated Merons with finite energy in Gauged baby Skyrme model [5]. Soon will be finished work on numerical study of gauged Hopfions in full 3d Faddeev-Skyrme model. Further, currently I continue investigation of domain walls on cylinder with non trivial vacuum configuration and existence of the bound for Hopfions in frustrated magnets. The above mentioned works were carried out under supervision of Prof. Dr. Jakov Shnir.
-%
-%In order to solve these problems, I have developed numerical minimization algorithm, which works for 2 or 3 dimensional models and even for non-positively defined energy functional. It was based on the simulated annealing algorithm and realized on C++.
-
 
 \NewPart{Awards}{}
 \begin{itemize}
