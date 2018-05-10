@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.21)  8 MAY 2018 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.21)  10 MAY 2018 18:20
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -501,7 +501,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 98.
+ne 99.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -509,7 +509,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 106.
+ne 107.
 
 [1
 
@@ -520,15 +520,15 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 113.
+ne 114.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
 
 (D:\Pro\latex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
  [2]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -536,12 +536,12 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 131.
+ne 132.
 
 (D:\Pro\latex\tex\latex\ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Overfull \hbox (17.34901pt too wide) in paragraph at lines 143--147
+Overfull \hbox (17.34901pt too wide) in paragraph at lines 144--148
 \OT1/cmr/m/n/10.95 (-20) Grav-i-ta-tional Fields" at Theoretisch-Physikalisches
  In-sti-tut Astronomisch-Physikalische-
  []
@@ -577,7 +577,7 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Pro/latex/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><D:/Pro/latex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/
 Pro/latex/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Pro/latex/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on cv.pdf (4 pages, 117498 bytes).
+Output written on cv.pdf (4 pages, 118065 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
